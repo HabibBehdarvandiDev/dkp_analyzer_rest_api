@@ -1,4 +1,6 @@
 const axios = require("axios");
+const { PrismaClient } = require("@prisma/client");
+const prisma = new PrismaClient();
 
 async function fetchDKPData(dkp) {
   try {
@@ -13,6 +15,11 @@ async function fetchDKPData(dkp) {
     if (data.status !== 200) {
       return null;
     }
+
+    const company_price = await prisma.product_dkp.findUnique({
+      where: { product_dkp: dkp },
+      select: { product_price: true },
+    });
 
     const productLastComments = data.data.product.last_comments.map(
       (comment) => ({
@@ -106,6 +113,7 @@ async function fetchDKPData(dkp) {
         discount_percent:
           data.data.product.default_variant.price?.discount_percent || 0,
         timer: data.data.product.default_variant.price?.timer || 0,
+        company_price: company_price.product_price || 0,
       },
       product_videos: data.data.product.videos || [],
       product_category: data.data.product.category.title_fa || "",
