@@ -1,0 +1,178 @@
+{
+  "data": {
+    "product": {
+      "id": 9727526,
+      "title_fa": "اسپیکر بلوتوثی قابل حمل تسکو مدل TS 23310",
+      "url": {
+        "uri": "/product/dkp-9727526/اسپیکر-بلوتوثی-قابل-حمل-تسکو-مدل-ts-23310"
+      },
+      "status": "marketable",
+      "colors": [
+        {
+          "id": 1,
+          "title": "مشکی",
+          "hex_code": "#212121"
+        }
+      ],
+      "default_variant": {
+        "rate": 85.8,
+        "statistics": {
+          "totally_satisfied": {
+            "rate_count": 3,
+            "rate": 42.86
+          },
+          "satisfied": {
+            "rate_count": 3,
+            "rate": 42.86
+          },
+          "neutral": {
+            "rate_count": 1,
+            "rate": 14.29
+          },
+          "dissatisfied": {
+            "rate_count": 0,
+            "rate": 0
+          },
+          "totally_dissatisfied": {
+            "rate_count": 0,
+            "rate": 0
+          },
+          "total_count": 7,
+          "total_rate": 85.8
+        },
+        "properties": {
+          "is_ship_by_seller": true,
+          "is_multi_warehouse": false,
+          "in_digikala_warehouse": false
+        },
+        "warranty": {
+          "id": 544,
+          "title_fa": "گارانتی 12 ماهه توسن سیستم"
+        },
+        "color": {
+          "id": 1,
+          "title": "مشکی",
+          "hex_code": "#212121"
+        },
+        "seller": {
+          "id": 717769,
+          "title": "پخش پویا قم",
+          "code": "DGWEA",
+          "url": "https://www.digikala.com/seller/DGWEA/",
+          "rating": {
+            "total_rate": 83,
+            "total_count": 21174,
+            "commitment": 99.9,
+            "no_return": 99.3,
+            "on_time_shipping": 99.3
+          },
+          "properties": {
+            "is_trusted": false,
+            "is_official": false,
+            "is_new": false
+          },
+          "stars": 4.2,
+          "grade": {
+            "label": "عالی",
+            "color": "#00a049"
+          },
+          "registration_date": "2 سال و 8 ماه"
+        },
+        "price": {
+          "selling_price": 10180000,
+          "discount_percent": 0
+        }
+      },
+      "videos": [
+        {
+          "title": "TG 155W",
+          "url": "https://digikala.arvanvod.ir/kGp7mgrY8V/valKZNK1k5/origin_uI6YdzYRNoSAQbZqYpW5hoIYy2Fe8F9fQzqyg5rQ.mp4",
+          "cover": "https://digikala.arvanvod.ir/kGp7mgrY8V/valKZNK1k5/thumbnail.png?x-oss-process=image/resize,m_fill,h_115,w_115"
+        }
+      ],
+      "category": {
+        "id": 25,
+        "title_fa": "اسپیکر (بلندگو)",
+        "title_en": "اسپیکر (بلندگو)",
+        "code": "speaker"
+      },
+      "questions_count": 4,
+      "comments_count": 11,
+      "last_comments": [
+        {
+          "id": 55848018,
+          "title": "",
+          "body": "عالی بود",
+          "created_at": "2 آذر 1402",
+          "rate": 4,
+          "reactions": {
+            "likes": 0,
+            "dislikes": 0
+          },
+          "files": [],
+          "recommendation_status": "recommended",
+          "is_buyer": true,
+          "user_name": "سپیده اسکندری",
+          "is_anonymous": false,
+          "purchased_item": [],
+          "advantages": [],
+          "disadvantages": []
+        }
+      ],
+      "last_questions": [
+        {
+          "id": 5953944,
+          "status": "accepted",
+          "text": "سلام ببخشید این کابل AUX نمیخوره",
+          "answer_count": 0,
+          "sender": "امیر غظنفریان",
+          "created_at": "23 دی 1402"
+        },
+        {
+          "id": 5865824,
+          "status": "accepted",
+          "text": "سلام صداش دوبرابر گوشی هست ؟",
+          "answer_count": 0,
+          "sender": "مهدی حیدری",
+          "created_at": "30 آذر 1402"
+        },
+        {
+          "id": 5187006,
+          "status": "accepted",
+          "text": "سلام رنگ‌های وسط عوض میشن یا ثابته؟",
+          "answer_count": 2,
+          "sender": "پیونیک پانوسیان",
+          "created_at": "7 تیر 1402"
+        }
+      ]
+    },
+    "seo": {
+      "markup_schema": [
+        {
+          "images": [
+            "https://dkstatics-public.digikala.com/digikala-products/912374b37c3139ff082b5d45705843b51c476c03_1666699980.jpg?x-oss-process=image/resize,h_1600/quality,q_80",
+            "https://dkstatics-public.digikala.com/digikala-products/088d987c479955b953a5da6dec6c1f757ccb026c_1666699980.jpg?x-oss-process=image/resize,h_1600/quality,q_80",
+            "https://dkstatics-public.digikala.com/digikala-products/265d074a5a1ff5c249630a77bd8e8bd525a95301_1666699981.jpg?x-oss-process=image/resize,h_1600/quality,q_80",
+            "https://dkstatics-public.digikala.com/digikala-products/4a7161687e3d2a9379a209123d9cd785998d1712_1666699981.jpg?x-oss-process=image/resize,h_1600/quality,q_80",
+            "https://dkstatics-public.digikala.com/digikala-products/1aa8813558584748023114f2b76f0a931d238ec5_1666699982.jpg?x-oss-process=image/resize,h_1600/quality,q_80",
+            "https://dkstatics-public.digikala.com/digikala-products/e01e1553c54f4e929d0c9de9667bc1a15a7b7883_1666699983.jpg?x-oss-process=image/resize,h_1600/quality,q_80",
+            "https://dkstatics-public.digikala.com/digikala-products/17c942a281225c1ce987f4d047f5d96d162e55e7_1666699983.jpg?x-oss-process=image/resize,h_1600/quality,q_80",
+            "https://dkstatics-public.digikala.com/digikala-products/1e8c1dea4580232679ccb7196e25a96d7f0d15be_1666699984.jpg?x-oss-process=image/resize,h_1600/quality,q_80",
+            "https://dkstatics-public.digikala.com/digikala-products/4ecdc219ab99cd51f78b9e8b327b9554c45916f3_1666699984.jpg?x-oss-process=image/resize,h_1600/quality,q_80"
+          ],
+          "aggregateRating": {
+            "ratingValue": 4.3,
+            "reviewCount": 11
+          }
+        }
+      ]
+    },
+    "intrack": {
+      "eventData": {
+        "productImageUrl": [
+          "https://dkstatics-public.digikala.com/digikala-products/39b876ffec436e6445542409fc40dd23bd67b5ec_1666699979.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+        ]
+      }
+    }
+  }
+}

@@ -40,10 +40,14 @@ enum ProductStatus {
 }
 
 model product_dkp {
-  product_dkp   Int           @id @unique
-  product_title String
-  product_price String
-  product_status        ProductStatus @default(marketable)
-  created_at    DateTime      @default(now())
-  updated_at    DateTime      @updatedAt
+  product_dkp    Int           @id @unique
+  product_title  String
+  product_price  String
+  product_status ProductStatus @default(marketable)
+  created_at     DateTime      @default(now())
+  updated_at     DateTime      @updatedAt
+}
+
+model apiKey {
+  api_key String @id @unique
 }
