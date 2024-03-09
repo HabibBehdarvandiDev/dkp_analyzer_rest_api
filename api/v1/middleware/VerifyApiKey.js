@@ -8,6 +8,7 @@ const VerifyApiKey = async (req, res, next) => {
   if (!apiKey) {
     return res.status(401).json({ error: "Unauthorized | Api-Key missing !" });
   }
+  
   const isKeyValid = await prisma.apiKey.findUnique({
     where: {
       api_key: apiKey,
