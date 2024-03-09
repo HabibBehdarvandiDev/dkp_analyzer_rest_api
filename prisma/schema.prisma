@@ -29,7 +29,21 @@ model users {
   phone_number String?   @default("")
   role         UserRoles @default(EMPLOYEE)
   actions      Json?
-  nickname     String?   
+  nickname     String?
   created_at   DateTime  @default(now())
   updated_at   DateTime  @updatedAt
+}
+
+enum ProductStatus {
+  out_of_stock
+  marketable
+}
+
+model product_dkp {
+  product_dkp   Int           @id @unique
+  product_title String
+  product_price String
+  product_status        ProductStatus @default(marketable)
+  created_at    DateTime      @default(now())
+  updated_at    DateTime      @updatedAt
 }

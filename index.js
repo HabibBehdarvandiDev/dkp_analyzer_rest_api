@@ -1,5 +1,6 @@
 const express = require("express");
 const UserRoutes = require("./api/v1/routes/userRoutes");
+const DkpRoutes = require("./api/v1/routes/DkpRoutes");
 
 const app = express();
 
@@ -11,6 +12,8 @@ app.get("/rest/api", (req, res) => {
 
 // Include user routes
 app.use(UserRoutes);
+
+app.use(DkpRoutes);
 
 const port = process.env.SERVER_PORT || 3333;
 
