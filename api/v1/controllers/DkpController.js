@@ -39,7 +39,7 @@ const DkpController = {
         },
       });
 
-      return res.status(200).json(newProduct);
+      return res.status(201).json(newProduct);
     } catch (error) {
       console.error(error);
       res.status(500).json({ error: "Failed to create user" });
@@ -114,7 +114,7 @@ const DkpController = {
         data: payload,
       });
 
-      return res.status(200).json(updatedProduct);
+      return res.status(204);
     } catch (error) {
       console.error(error);
       return res.status(500).json({ error: "Internal server Error" });
@@ -144,7 +144,7 @@ const DkpController = {
         },
       });
 
-      return res.status(200).json(deletedDkp);
+      return res.status(204);
     } catch (error) {
       console.error(error);
       return res.status(500).json({ error: "Internal server Error" });

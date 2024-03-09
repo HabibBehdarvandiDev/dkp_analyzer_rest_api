@@ -51,3 +51,30 @@ model product_dkp {
 model apiKey {
   api_key String @id @unique
 }
+
+model Product {
+  product_dkp             Int      @id @unique
+  product_title           String?
+  product_image_url       String?
+  product_url             String?
+  product_status          String?
+  product_colors          Json?
+  product_rate            Float?
+  product_statistics      Json?
+  product_properties      Json?
+  product_warranty        String?
+  product_color           Json?
+  product_seller          Json?
+  product_price           Json?
+  product_videos          Json?
+  product_category        String?
+  product_questions_count Int?
+  product_comments_count  Int?
+  product_last_comments   Json?
+  product_last_questions  Json?
+  product_images          Json
+  product_stars           Float?
+  product_stars_count     Int?
+  created_at              DateTime @default(now())
+  updated_at              DateTime @updatedAt
+}
