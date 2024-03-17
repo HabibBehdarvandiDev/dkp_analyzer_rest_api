@@ -13,68 +13,23 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-enum UserRoles {
-  EMPLOYEE
-  MANAGER
-  DEVELOPER
-  CEO
+
+model User {
+  id           Int            @id @default(autoincrement())
+  username     String
+  email        String         @unique
+  type         UserType
+  Subscription Subscription[]
 }
 
-model users {
-  id           Int       @id @default(autoincrement())
-  first_name   String
-  last_name    String?
-  username     String    @unique
-  password     String
-  phone_number String?   @default("")
-  role         UserRoles @default(EMPLOYEE)
-  actions      Json?
-  nickname     String?
-  created_at   DateTime  @default(now())
-  updated_at   DateTime  @updatedAt
+enum UserType {
+  company
+  person
 }
 
-enum ProductStatus {
-  out_of_stock
-  marketable
-}
-
-model product_dkp {
-  product_dkp    Int           @id @unique
-  product_title  String
-  product_price  String
-  product_status ProductStatus @default(marketable)
-  created_at     DateTime      @default(now())
-  updated_at     DateTime      @updatedAt
-}
-
-model apiKey {
-  api_key String @id @unique
-}
-
-model Product {
-  product_dkp             Int      @id @unique
-  product_title           String?
-  product_image_url       String?
-  product_url             String?
-  product_status          String?
-  product_colors          Json?
-  product_rate            Float?
-  product_statistics      Json?
-  product_properties      Json?
-  product_warranty        String?
-  product_color           Json?
-  product_seller          Json?
-  product_price           Json?
-  product_videos          Json?
-  product_category        String?
-  product_questions_count Int?
-  product_comments_count  Int?
-  product_last_comments   Json?
-  product_last_questions  Json?
-  product_images          Json
-  product_stars           Float?
-  product_stars_count     Int?
-  created_at              DateTime @default(now())
-  updated_at              DateTime @updatedAt
+model Subscription {
+  id     Int    @id @default(autoincrement())
+  user   User   @relation(fields: [userId], references: [id])
+  userId Int
+  apiKey String @unique
 }
